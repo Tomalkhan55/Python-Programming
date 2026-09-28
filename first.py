@@ -40,17 +40,25 @@ my_name = "tomal khan"
 
 
 course_name = "     python programmin    "
-print(course_name)
-print(course_name.strip())
-print(course_name.lstrip())
-print(course_name.rsplit())
-print(course_name.find("Pro"))
-print(course_name.replace("p", "c"))
-print("pro" in course_name)
+# print(course_name)
+# print(course_name.strip())
+# print(course_name.lstrip())
+# print(course_name.rsplit())
+# print(course_name.find("Pro"))
+# print(course_name.replace("p", "c"))
+# print("pro" in course_name)
 
 
+# variables --------
+student_count = 2000
+cgpa = 3.88
+is_applied = True
+learnig_language = """
+Python Programming
+language
+"""  # this is multiline string triple quote
+a = 1
+b = 2
+# as same a, b = 1, 2
 
-
-
-
-
+print(type(student_count))
