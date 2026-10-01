@@ -94,15 +94,83 @@ def is_vowel(char):
 # # numbers = [19, 1k5, 15, 5, 3, 3, 5, 2]
 # print(test(numbers))
 
-def check_list(numbers):
-    if len(numbers) == 8 and numbers.count(numbers[4]) == 3:
-        return True
-    else:
-        return False
-    
-numbers = [19, 19, 15, 5, 5, 5, 1, 2]
+# def check_list(numbers):
+#     if len(numbers) == 8 and numbers.count(numbers[4]) == 3:
+#         return True
+#     else:
+#         return False
 
-print(check_list(numbers))
+# numbers = [19, 19, 15, 5, 5, 5, 1, 2]
+
+# print(check_list(numbers))
+
+fruits = ["apple", "banana", "mango"]
+# print(fruits);
+# print(type(fruits))
+
+# comments --- list type data is mutable, thats value can be changed
+
+numbers = [1, 1, 2, 3, 2, 5]
+# print(numbers)
+# print(type(numbers))
+# numbers.append(10);
+# numbers[1] = 7
+# print(numbers)
+# divine_interns = ['Mahi', "Tomal", "sifat", "more"]
+# print(divine_interns[2]);
+
+
+numbers = (1, 1, 2, 3, 2, 5)
+# print(numbers)
+# print(type(numbers))
+# numbers[2] = 10
+# print(numbers)
+
+# comments --- tuple data type is immutable data that  can not allow to assign or change value
+
+
+# set data types---
+numbers = {1, 2, 3, 3, 2, 4, 5}
+# print(numbers)
+# print(type(numbers))
+# numbers.add(12)
+# print(numbers)
+# numbers.remove(3)
+# print(numbers)
+
+color = ("red", "green", [1, 2], "blue")
+# print(type(color))
+# print(color)
+# print(color[2])
+# color[2][1] = 3
+# print(color[2])
+
+color = ["red", "green", "blue"]
+# print(color)
+# color.append("yellow")
+# print(color)
+
+
+# set data type automatically remove duplicate data in a list and
+
+# data = (10, "Tomal", [1, 2, 3], {"name": "Tomal"})
+# print(data)
+# print(data[3]["name"])
+
+# person = {"name" : "Tomal"}
+# print(person["name"])
+
+
+
+student = {
+    "name": "Tomal",
+    "age": 25,
+    "department": "CSE"
+}
+print(student)
+print(type(student))
+print(student["name"])
+print(student["age"])
 
 
 
