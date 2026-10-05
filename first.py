@@ -13,7 +13,7 @@ course = "python Programming"
 print(rating, student_count, is_sold)
 
 
-print(len(course[]))
+print(len(course[:]))
 print(course[0])
 print(course[-1])
 print(course[0:5])
