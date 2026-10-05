@@ -34,13 +34,13 @@
 # print(book.price)
 
 
-import keyword
+# import keyword
 
-print(keyword.kwlist) # check keyword list
+# print(keyword.kwlist) # check keyword list
 
-print(keyword.iskeyword("is"))
-print(keyword.iskeyword("class"))
-print(keyword.iskeyword("Orrange"))
+# print(keyword.iskeyword("is"))
+# print(keyword.iskeyword("class"))
+# print(keyword.iskeyword("Orrange"))
 
 # def = 5;#its occurs the syntax error
 # print(def) #
