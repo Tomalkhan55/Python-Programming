@@ -1,16 +1,16 @@
-#conditional statement 
+# conditional statement 
 
-# age = 15
+age = 15
 
-# if age >= 18:
-#     print("Adult")
-# elif age >=13:
-#     print("Teenage")
-# else: 
-#     print("child")
+if age >= 18:
+    print("Adult")
+elif age >=13:
+    print("Teenage")
+else: 
+    print("child")
     
-# print("End")
-
+print("End")
+# 
 # logical operator
 
 name = " "
