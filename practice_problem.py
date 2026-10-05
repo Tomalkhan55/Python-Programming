@@ -171,6 +171,8 @@ print(student)
 print(type(student))
 print(student["name"])
 print(student["age"])
+student["age"] = 26
+print(student["age"])
 
 
 
